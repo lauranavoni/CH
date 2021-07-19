@@ -112,6 +112,16 @@ const Login = ({ setActiveUser, history, activeUser }) => {
               )}
             </Formik>
           )}
+          <hr />
+
+          <p>Or Login With </p>
+            <span>
+              <FaFacebook className="fa-facebook"/>
+            </span>
+  
+            <span>
+              <FcGoogle className="fa-google"/>
+            </span>
         </div>
       </div>
     </div>

@@ -48,7 +48,7 @@ const Home = () => {
 
   //BUSCARDOR DE HEROES
   //
-  const appId = '10223353236392867';
+  const appId = '10224982162038591';
   const url = `https://www.superheroapi.com/api.php/${appId}/search/${getHero}`;
 
   useEffect(() => {
